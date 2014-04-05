@@ -1,0 +1,29 @@
+{
+  "type": "object",
+  "required": [ "id", "body", "tags" ],
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+
+    "body": {
+      "type": "string"
+    },
+
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "maxItems": 6
+    },
+
+    "references": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "format": "uri"
+      }
+    }
+  }
+}

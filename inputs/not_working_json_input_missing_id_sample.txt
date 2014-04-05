@@ -1,0 +1,5 @@
+{
+  "body": "Hello, Universe",
+  "tags": ["start", "first"],
+  "references": [ "http://example.com" ]
+}

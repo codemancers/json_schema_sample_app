@@ -1,0 +1,6 @@
+{
+  "id": 1,
+  "body": "Hello, Universe",
+  "tags": ["start", "first"],
+  "references": [ "data:image/svg+xml;base64 C==" ]
+}
